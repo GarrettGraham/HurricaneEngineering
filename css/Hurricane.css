@@ -41,6 +41,7 @@ hr {
 .brand,
 .address-bar {
     display: none;
+    opacity: 0.9;
 }
 
 .navbar-brand {
