@@ -48,6 +48,7 @@ hr {
     text-transform: uppercase;
     font-weight: 900;
     letter-spacing: 2px;
+    font-size: 9px!important;
 }
 
 .navbar-nav {
@@ -85,6 +86,12 @@ hr {
     padding: 30px 15px;
     background: #fff;
     background: rgba(255,255,255,0.9);
+}
+
+
+.contactInfo {
+  text-align: center;
+
 }
 
 .intro-text {
