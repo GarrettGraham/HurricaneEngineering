@@ -88,10 +88,15 @@ hr {
     background: rgba(255,255,255,0.9);
 }
 
-
+/* declaration for the contact info so that text in centered*/
 .contactInfo {
   text-align: center;
+}
 
+.services {
+  -webkit-column-count: 3; /* chrome, safari, opera */
+  -mox-column-count: 3; /* firefox */
+  column-count:3;
 }
 
 .intro-text {
@@ -193,6 +198,7 @@ footer p {
         font-size: 1.25em;
     }
 }
+
 
 @media screen and (min-width:1200px) {
     .box:after {
